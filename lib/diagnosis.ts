@@ -30,20 +30,20 @@ export const questions: Question[] = [
         text: 'お子さまの年齢はどのくらいですか？',
         options: [
             {
-                label: '3歳以下（未就園児）',
-                scores: { swimming: 3, programming: 0, piano: 5, english: 5, 'martial-arts': 1, art: 3, dance: 3 },
+                label: '0〜3歳（乳幼児）',
+                scores: { programming: 0, english: 4, 'english-online': 2, 'music-dance': 2, steam: 2, learning: 0, chikuiku: 5 },
             },
             {
                 label: '4〜6歳（幼稚園・保育園）',
-                scores: { swimming: 5, programming: 1, piano: 5, english: 4, 'martial-arts': 4, art: 4, dance: 4 },
+                scores: { programming: 1, english: 5, 'english-online': 4, 'music-dance': 5, steam: 5, learning: 2, chikuiku: 4 },
             },
             {
                 label: '7〜9歳（小学校低学年）',
-                scores: { swimming: 4, programming: 4, piano: 4, english: 4, 'martial-arts': 5, art: 4, dance: 5 },
+                scores: { programming: 4, english: 4, 'english-online': 5, 'music-dance': 4, steam: 5, learning: 5, chikuiku: 2 },
             },
             {
                 label: '10歳以上（小学校高学年〜）',
-                scores: { swimming: 3, programming: 5, piano: 3, english: 5, 'martial-arts': 4, art: 3, dance: 4 },
+                scores: { programming: 5, english: 5, 'english-online': 5, 'music-dance': 3, steam: 4, learning: 5, chikuiku: 0 },
             },
         ],
     },
@@ -54,19 +54,19 @@ export const questions: Question[] = [
         options: [
             {
                 label: '活発で体を動かすのが大好き',
-                scores: { swimming: 5, programming: 1, piano: 1, english: 2, 'martial-arts': 5, art: 1, dance: 5 },
+                scores: { programming: 1, english: 2, 'english-online': 2, 'music-dance': 5, steam: 3, learning: 1, chikuiku: 2 },
             },
             {
                 label: '好奇心旺盛で色んなことに興味を持つ',
-                scores: { swimming: 3, programming: 4, piano: 3, english: 4, 'martial-arts': 3, art: 4, dance: 3 },
+                scores: { programming: 4, english: 4, 'english-online': 4, 'music-dance': 3, steam: 5, learning: 4, chikuiku: 5 },
             },
             {
                 label: 'じっくり集中して取り組むタイプ',
-                scores: { swimming: 2, programming: 5, piano: 5, english: 3, 'martial-arts': 3, art: 5, dance: 2 },
+                scores: { programming: 5, english: 3, 'english-online': 3, 'music-dance': 4, steam: 4, learning: 5, chikuiku: 3 },
             },
             {
                 label: '人と関わるのが好きで社交的',
-                scores: { swimming: 4, programming: 2, piano: 3, english: 5, 'martial-arts': 4, art: 3, dance: 5 },
+                scores: { programming: 2, english: 5, 'english-online': 5, 'music-dance': 5, steam: 3, learning: 2, chikuiku: 2 },
             },
         ],
     },
@@ -75,20 +75,20 @@ export const questions: Question[] = [
         text: 'どんな力を一番伸ばしてあげたいですか？',
         options: [
             {
-                label: '体力・運動能力',
-                scores: { swimming: 5, programming: 0, piano: 0, english: 0, 'martial-arts': 5, art: 0, dance: 4 },
+                label: '思考力・論理的思考',
+                scores: { programming: 5, english: 2, 'english-online': 2, 'music-dance': 1, steam: 5, learning: 4, chikuiku: 4 },
             },
             {
-                label: '思考力・論理的思考',
-                scores: { swimming: 1, programming: 5, piano: 2, english: 2, 'martial-arts': 2, art: 2, dance: 1 },
+                label: '語学力・コミュニケーション力',
+                scores: { programming: 1, english: 5, 'english-online': 5, 'music-dance': 2, steam: 1, learning: 3, chikuiku: 1 },
             },
             {
                 label: '感性・表現力・創造力',
-                scores: { swimming: 0, programming: 1, piano: 5, english: 1, 'martial-arts': 1, art: 5, dance: 5 },
+                scores: { programming: 2, english: 1, 'english-online': 1, 'music-dance': 5, steam: 4, learning: 2, chikuiku: 4 },
             },
             {
-                label: 'コミュニケーション力・社会性',
-                scores: { swimming: 3, programming: 2, piano: 3, english: 5, 'martial-arts': 4, art: 3, dance: 4 },
+                label: '読解力・学力・教養',
+                scores: { programming: 2, english: 3, 'english-online': 3, 'music-dance': 1, steam: 3, learning: 5, chikuiku: 3 },
             },
         ],
     },
@@ -98,64 +98,64 @@ export const questions: Question[] = [
         options: [
             {
                 label: 'ゲーム・パソコン・タブレット',
-                scores: { swimming: 1, programming: 5, piano: 1, english: 2, 'martial-arts': 0, art: 2, dance: 1 },
+                scores: { programming: 5, english: 2, 'english-online': 3, 'music-dance': 1, steam: 4, learning: 2, chikuiku: 1 },
             },
             {
-                label: '音楽を聴く・歌う・楽器に触る',
-                scores: { swimming: 0, programming: 0, piano: 5, english: 1, 'martial-arts': 0, art: 1, dance: 4 },
+                label: '音楽を聴く・歌う・踊る',
+                scores: { programming: 0, english: 1, 'english-online': 1, 'music-dance': 5, steam: 1, learning: 1, chikuiku: 2 },
             },
             {
-                label: '外遊び・スポーツ・かけっこ',
-                scores: { swimming: 5, programming: 0, piano: 0, english: 0, 'martial-arts': 5, art: 0, dance: 4 },
+                label: '本を読む・お話を聞く',
+                scores: { programming: 2, english: 3, 'english-online': 3, 'music-dance': 1, steam: 2, learning: 5, chikuiku: 3 },
             },
             {
-                label: 'お絵かき・工作・ものづくり',
-                scores: { swimming: 0, programming: 3, piano: 1, english: 0, 'martial-arts': 0, art: 5, dance: 1 },
+                label: 'お絵かき・工作・実験',
+                scores: { programming: 3, english: 0, 'english-online': 0, 'music-dance': 2, steam: 5, learning: 1, chikuiku: 5 },
             },
         ],
     },
     {
         id: 5,
-        text: '習い事に期待することは何ですか？',
+        text: '習い事のスタイルで理想的なのは？',
         subtext: '保護者として最も重視するポイント',
         options: [
             {
-                label: '将来の受験や就職に役立ててほしい',
-                scores: { swimming: 2, programming: 5, piano: 2, english: 5, 'martial-arts': 2, art: 2, dance: 1 },
+                label: '教室に通って対面で学ばせたい',
+                scores: { programming: 4, english: 3, 'english-online': 1, 'music-dance': 5, steam: 1, learning: 1, chikuiku: 1 },
             },
             {
-                label: '心身を鍛え、たくましく育ってほしい',
-                scores: { swimming: 5, programming: 1, piano: 1, english: 1, 'martial-arts': 5, art: 1, dance: 3 },
+                label: 'オンラインで自宅から学ばせたい',
+                scores: { programming: 3, english: 5, 'english-online': 5, 'music-dance': 1, steam: 3, learning: 2, chikuiku: 2 },
             },
             {
-                label: '自分らしい個性や才能を見つけてほしい',
-                scores: { swimming: 2, programming: 3, piano: 4, english: 2, 'martial-arts': 2, art: 5, dance: 5 },
+                label: '自宅に届く教材で自分のペースで',
+                scores: { programming: 2, english: 2, 'english-online': 2, 'music-dance': 1, steam: 5, learning: 5, chikuiku: 5 },
             },
             {
-                label: '友達を作り、協調性を身につけてほしい',
-                scores: { swimming: 4, programming: 2, piano: 3, english: 4, 'martial-arts': 4, art: 3, dance: 4 },
+                label: 'まだ決めていない',
+                scores: { programming: 3, english: 3, 'english-online': 3, 'music-dance': 3, steam: 3, learning: 3, chikuiku: 3 },
             },
         ],
     },
     {
         id: 6,
-        text: '通わせる頻度はどのくらいを考えていますか？',
+        text: '習い事に期待することは何ですか？',
         options: [
             {
-                label: '週1回がちょうどいい',
-                scores: { swimming: 4, programming: 4, piano: 4, english: 3, 'martial-arts': 3, art: 5, dance: 4 },
+                label: '将来の受験や就職に役立ててほしい',
+                scores: { programming: 5, english: 5, 'english-online': 5, 'music-dance': 2, steam: 3, learning: 5, chikuiku: 2 },
             },
             {
-                label: '週2〜3回しっかり通わせたい',
-                scores: { swimming: 5, programming: 3, piano: 3, english: 5, 'martial-arts': 5, art: 3, dance: 5 },
+                label: '自分らしい個性や才能を見つけてほしい',
+                scores: { programming: 3, english: 2, 'english-online': 2, 'music-dance': 5, steam: 5, learning: 2, chikuiku: 4 },
             },
             {
-                label: '自宅でも練習できるものがいい',
-                scores: { swimming: 1, programming: 4, piano: 5, english: 4, 'martial-arts': 2, art: 4, dance: 2 },
+                label: '楽しみながら自然に学んでほしい',
+                scores: { programming: 3, english: 4, 'english-online': 4, 'music-dance': 4, steam: 5, learning: 4, chikuiku: 5 },
             },
             {
-                label: 'まだ決めていない',
-                scores: { swimming: 3, programming: 3, piano: 3, english: 3, 'martial-arts': 3, art: 3, dance: 3 },
+                label: '友達を作り、協調性を身につけてほしい',
+                scores: { programming: 2, english: 4, 'english-online': 3, 'music-dance': 5, steam: 2, learning: 2, chikuiku: 2 },
             },
         ],
     },
@@ -164,151 +164,67 @@ export const questions: Question[] = [
         text: 'お子さまに一番身につけてほしいのは？',
         options: [
             {
-                label: '礼儀正しさ・規律',
-                scores: { swimming: 3, programming: 1, piano: 2, english: 2, 'martial-arts': 5, art: 1, dance: 3 },
+                label: '自分で考え、やり抜く力',
+                scores: { programming: 5, english: 3, 'english-online': 3, 'music-dance': 3, steam: 5, learning: 4, chikuiku: 3 },
             },
             {
-                label: '自分で考え、やり抜く力',
-                scores: { swimming: 3, programming: 5, piano: 4, english: 3, 'martial-arts': 4, art: 4, dance: 3 },
+                label: '世界で通用するスキル',
+                scores: { programming: 4, english: 5, 'english-online': 5, 'music-dance': 2, steam: 3, learning: 2, chikuiku: 1 },
             },
             {
                 label: '自己表現力・発信力',
-                scores: { swimming: 1, programming: 2, piano: 4, english: 4, 'martial-arts': 2, art: 5, dance: 5 },
+                scores: { programming: 2, english: 4, 'english-online': 4, 'music-dance': 5, steam: 4, learning: 3, chikuiku: 3 },
             },
             {
-                label: '健康な体と基礎体力',
-                scores: { swimming: 5, programming: 0, piano: 0, english: 0, 'martial-arts': 4, art: 0, dance: 4 },
+                label: '知的好奇心・学ぶ楽しさ',
+                scores: { programming: 3, english: 3, 'english-online': 3, 'music-dance': 3, steam: 5, learning: 5, chikuiku: 5 },
             },
         ],
     },
 ];
 
 const conditionalReasons: Record<string, ConditionalReason[]> = {
-    swimming: [
-        {
-            condition: (answers) => answers[1] === 0 && answers[2] === 0,
-            text: '活発でエネルギーにあふれたお子さまには、全身運動であるスイミングが最適です。体力向上だけでなく、水の安全スキルも身につき一石二鳥。進級テストが目標になり、達成感を味わいながら成長できます。',
-        },
-        {
-            condition: (answers) => answers[4] === 1,
-            text: 'たくましく育ってほしいというお気持ち、スイミングなら叶えられます。全身をバランスよく使う水泳は、免疫力アップや姿勢改善にも効果的。段階的な指導で無理なくステップアップできます。',
-        },
-        {
-            condition: (answers) => answers[6] === 3,
-            text: '健康な体と基礎体力を重視されるなら、スイミングは理想的な選択です。関節への負担が少なく、心肺機能の発達にも優れた全身運動。幅広い年齢で始められるのも魅力です。',
-        },
-        {
-            condition: () => true,
-            text: 'お子さまの回答から、体を動かすことが好きで活動的な傾向が見られます。スイミングなら楽しみながら体力づくりができ、進級制度で成長を実感できます。',
-        },
-    ],
     programming: [
-        {
-            condition: (answers) => answers[3] === 0,
-            text: 'ゲームやパソコンに夢中になれるお子さまには、プログラミングがぴったり。「遊ぶ側」から「作る側」へ変わることで、創造力と論理的思考力が同時に育ちます。ゲーム感覚で学べるカリキュラムなので、楽しみながら将来のスキルが身につきます。',
-        },
-        {
-            condition: (answers) => answers[2] === 1,
-            text: '思考力・論理的思考を伸ばしたいというご希望に、プログラミングは直球でお応えできます。「順序立てて考える力」「問題を分解する力」は、学校の勉強にも応用できる一生モノのスキルです。',
-        },
-        {
-            condition: (answers) => answers[4] === 0,
-            text: '将来の受験や就職を見据えるなら、プログラミングは最も将来性のある習い事の一つ。2025年から大学入試にも導入され、IT人材の需要は今後も高まる一方です。',
-        },
-        {
-            condition: () => true,
-            text: 'お子さまの回答から、じっくり考えることが好きな傾向が見られます。プログラミングなら、自分のアイデアを形にする喜びを体験しながら、論理的思考力を自然に伸ばせます。',
-        },
-    ],
-    piano: [
-        {
-            condition: (answers) => answers[3] === 1,
-            text: '音楽に自然と惹かれるお子さまには、ピアノが最適です。ヤマハ独自の「きく・うたう・ひく」メソッドで、耳の発達が著しい今の時期に音感の基礎を築けます。将来の趣味や特技として一生の財産になります。',
-        },
-        {
-            condition: (answers) => answers[1] === 2 && answers[2] === 2,
-            text: 'じっくり集中できるお子さまの性格と、感性を伸ばしたいというご希望はピアノにぴったり。練習を通じて忍耐力も育ち、発表会では自信と達成感を味わえます。',
-        },
-        {
-            condition: (answers) => answers[5] === 2,
-            text: '自宅でも練習できる習い事をお探しなら、ピアノは最適です。教室で学んだことを家庭でも反復でき、日常の中で音楽に触れる時間が自然と増えます。',
-        },
-        {
-            condition: () => true,
-            text: 'お子さまの回答から、感性や表現力に関心が高いことがうかがえます。ピアノは脳の発達にも良い影響があり、集中力・記憶力・表現力をバランスよく育てることができます。',
-        },
+        { condition: (a) => a[3] === 0, text: 'ゲームやパソコンに夢中になれるお子さまには、プログラミングがぴったり。サイバーエージェントが運営するTech Kids Schoolでは、「遊ぶ側」から「作る側」へ。ゲーム開発を通じて創造力と論理的思考力が同時に育ちます。' },
+        { condition: (a) => a[2] === 0, text: '思考力・論理的思考を伸ばしたいというご希望に、プログラミングは直球でお応えできます。「順序立てて考える力」「問題を分解する力」は、学校の勉強にも応用できる一生モノのスキルです。' },
+        { condition: (a) => a[5] === 0, text: '将来の受験や就職を見据えるなら、プログラミングは最も将来性のある習い事の一つ。大学入試にも導入され、IT人材の需要は今後も高まる一方です。' },
+        { condition: () => true, text: 'サイバーエージェントが運営する本格的なプログラミングスクール。ゲーム開発を通じて、お子さまの論理的思考力と創造力を楽しく伸ばせます。' },
     ],
     english: [
-        {
-            condition: (answers) => answers[0] === 0 || answers[0] === 1,
-            text: '幼少期から英語に触れるチャンスは一生に一度。この時期の「英語耳」は大人になってからは身につきにくい貴重な能力です。ネイティブ講師との楽しいレッスンで、自然な英語力が育ちます。',
-        },
-        {
-            condition: (answers) => answers[4] === 0,
-            text: '将来の受験や就職に英語力は必須の時代。早期から英語に馴染んでおくことで、学校の英語が「得意科目」になり、自信につながります。英検対策にも対応しているので目標を持って学べます。',
-        },
-        {
-            condition: (answers) => answers[1] === 3,
-            text: '社交的なお子さまには、外国人の先生やお友達と交流できる英会話がぴったり。コミュニケーションを楽しみながら、異文化への理解も深まります。',
-        },
-        {
-            condition: () => true,
-            text: 'お子さまの回答から、コミュニケーション力を大切にされていることがわかります。英会話なら、言葉の壁を越えて世界と繋がる力を、楽しみながら身につけることができます。',
-        },
+        { condition: (a) => a[0] <= 1, text: '幼少期から英語に触れるチャンスは一生に一度。GLOBAL CROWNはバイリンガル講師が日本語でサポートしてくれるので、英語が初めてのお子さまでも安心してスタートできます。' },
+        { condition: (a) => a[4] === 1, text: 'オンラインで自宅から学ばせたいとのこと。GLOBAL CROWNなら送迎不要で、自宅からマンツーマンレッスンが受けられます。バイリンガル講師だから日本語でフォローしてもらえて安心です。' },
+        { condition: (a) => a[1] === 3, text: '社交的なお子さまには、先生と楽しく会話しながら学べるGLOBAL CROWNがぴったり。バイリンガル講師との対話を通じて、コミュニケーション力と英語力が同時に育ちます。' },
+        { condition: () => true, text: 'バイリンガル講師だから日本語でサポートOK。英語初心者のお子さまでも安心して始められるオンライン英会話です。自宅からマンツーマンで効率的に上達できます。' },
     ],
-    'martial-arts': [
-        {
-            condition: (answers) => answers[6] === 0,
-            text: '礼儀正しさ・規律を重視されるなら、武道は最高の選択です。道場での「押忍」の挨拶から始まり、相手を尊重する心、最後までやり抜く精神力が自然と身につきます。',
-        },
-        {
-            condition: (answers) => answers[1] === 0 && answers[4] === 1,
-            text: '活発なお子さまのエネルギーを正しい方向に導きたいなら、空手がおすすめ。体を思い切り動かしながら、礼儀作法や自制心を学べる武道は、心身をバランスよく育てます。',
-        },
-        {
-            condition: (answers) => answers[2] === 0,
-            text: '体力・運動能力の向上に加え、精神面も鍛えられる武道。試合や昇級審査を通じて「努力が報われる経験」を積み重ね、自信とたくましさが育ちます。',
-        },
-        {
-            condition: () => true,
-            text: 'お子さまの回答から、心身を鍛えることへの関心が高いことがうかがえます。空手を通じて、礼儀・忍耐・自信を武道の精神とともに自然と身につけていくことができます。',
-        },
+    'english-online': [
+        { condition: (a) => a[6] === 1, text: '世界で通用するスキルを身につけさせたいとのこと。NovaKidはアメリカ発のプログラムで、ネイティブ講師からの本場の英語に自然と触れられます。世界49カ国で利用される実績が品質の証です。' },
+        { condition: (a) => a[0] >= 2, text: '小学生のお子さまなら、NovaKidのオールイングリッシュレッスンでグンと英語力が伸びます。ゲーム感覚のカリキュラムで楽しみながら、ネイティブの発音と表現が自然に身につきます。' },
+        { condition: (a) => a[4] === 1, text: 'オンラインで自宅から学ばせたいとのこと。NovaKidならネイティブ講師のマンツーマンレッスンを自宅から受けられます。送迎不要で忙しいご家庭にも最適です。' },
+        { condition: () => true, text: 'アメリカ発のオンライン英会話。ネイティブ講師によるゲーム感覚のレッスンで、楽しみながら本場の英語が身につきます。世界49カ国で利用される信頼の品質。' },
     ],
-    art: [
-        {
-            condition: (answers) => answers[3] === 3,
-            text: 'お絵かきやものづくりが大好きなお子さまにとって、美術教室は才能を開花させる最高の場所。「正解がない」のがアートの魅力で、自由な発想を大切にしてもらえる環境で自己肯定感も育ちます。',
-        },
-        {
-            condition: (answers) => answers[2] === 2 && answers[1] === 2,
-            text: 'じっくり集中できるお子さまの性格と、感性・創造力を伸ばしたいというご希望は美術教室にぴったり。絵画・工作・デザインなど多彩な体験を通じて、お子さまの「好き」が見つかります。',
-        },
-        {
-            condition: (answers) => answers[4] === 2,
-            text: '個性や才能を見つけてほしいというご希望に、アートは最適です。他の子と比べるのではなく、自分だけの表現を追求できる環境で、お子さまの隠れた才能が見えてきます。',
-        },
-        {
-            condition: () => true,
-            text: 'お子さまの回答から、創造力や自己表現への関心が高いことがわかります。美術教室では、自由な発想を肯定してもらいながら、想像力と手先の器用さを伸ばすことができます。',
-        },
+    'music-dance': [
+        { condition: (a) => a[3] === 1, text: '音楽を聴いたり歌ったり踊ったりが大好きなお子さまにはEYS-Kidsがぴったり。ピアノ・バイオリン・ダンス・バレエなど多彩なコースから選べ、楽器プレゼントで初期費用もお得です。' },
+        { condition: (a) => a[1] === 0, text: '活発なお子さまのエネルギーを表現に変えるなら、EYS-Kidsのダンスやバレエがおすすめ。音楽教室としてピアノやバイオリンも選べるので、お子さまの興味に合わせて始められます。' },
+        { condition: (a) => a[2] === 2, text: '感性・表現力を伸ばしたいというご希望に、音楽とダンスは最適です。EYS-Kidsなら楽器プレゼントで手軽に始められ、発表会でのステージ経験がお子さまの大きな自信につながります。' },
+        { condition: () => true, text: '楽器プレゼントや月謝無料キャンペーンで始めやすいEYS-Kids。ピアノ・バイオリン・ダンス・バレエなど多彩なコースから、お子さまの「好き」を見つけられます。' },
     ],
-    dance: [
-        {
-            condition: (answers) => answers[3] === 1 && answers[1] === 0,
-            text: '音楽好きで体を動かすのが大好きなお子さまには、ダンスがぴったり。リズムに乗って踊ることで、体力・リズム感・表現力が同時に育ちます。ステージでの発表は大きな自信につながります。',
-        },
-        {
-            condition: (answers) => answers[2] === 2 && answers[6] === 2,
-            text: '自己表現力を伸ばしたいというご希望に、ダンスは直球でお応えできます。体全体を使った表現活動は、言葉だけでは伝えきれない感情や個性を発信する力を育てます。',
-        },
-        {
-            condition: (answers) => answers[1] === 3,
-            text: '社交的なお子さまには、仲間と一緒にステージを作り上げるダンスがおすすめ。チームワークや協調性を学びながら、一体感のある達成体験を味わえます。',
-        },
-        {
-            condition: () => true,
-            text: 'お子さまの回答から、表現することや体を動かすことへの関心が見られます。ダンスなら多彩なジャンルから好みを見つけられ、楽しみながらリズム感と表現力を磨けます。',
-        },
+    steam: [
+        { condition: (a) => a[3] === 3, text: 'お絵かきや工作が好きなお子さまには、ワンダーボックスのSTEAM教材がぴったり。毎月届くキットで実験・工作を楽しみながら、プログラミングやサイエンスの思考力も自然に身につきます。' },
+        { condition: (a) => a[1] === 1, text: '好奇心旺盛なお子さまの「知りたい！」を刺激するワンダーボックス。プログラミング・サイエンス・アートなど多彩なコンテンツで、飽きることなく学びを深められます。' },
+        { condition: (a) => a[4] === 2, text: '自宅に届く教材をご希望とのこと。ワンダーボックスなら毎月届くキットとアプリで、自分のペースで楽しく取り組めます。送迎不要で保護者の負担も少なく続けやすいです。' },
+        { condition: () => true, text: 'デジタルとアナログを融合したSTEAM教材。遊び感覚で思考力・創造力を育てながら、プログラミングやサイエンスの基礎も自然に身につきます。' },
+    ],
+    learning: [
+        { condition: (a) => a[3] === 2, text: '本やお話が好きなお子さまには、読売KODOMO新聞がぴったり。子ども向けにわかりやすく書かれたニュースや科学記事で、読解力・語彙力が自然にアップ。月額550円で始められます。' },
+        { condition: (a) => a[2] === 3, text: '読解力・学力を伸ばしたいというご希望に、子ども新聞は効果的です。時事問題から科学・文化まで幅広い知識が身につき、中学受験の対策にもなります。' },
+        { condition: (a) => a[5] === 0, text: '将来の受験を見据えるなら、読売KODOMO新聞は隠れた最強ツール。読解力・語彙力・時事問題の知識は、あらゆる教科の基礎となります。月額550円と圧倒的にリーズナブルです。' },
+        { condition: () => true, text: '月額550円で始められる子ども新聞。楽しく読めるニュースや科学記事で、読解力・語彙力・社会への関心が自然に育ちます。受験対策としても効果的です。' },
+    ],
+    chikuiku: [
+        { condition: (a) => a[0] === 0, text: '0〜3歳のお子さまには、月齢に合った知育玩具が届くCha Cha Chaが最適。保育士や専門家が監修した厳選おもちゃで、遊びながら五感の発達を促します。初月980円で試せます。' },
+        { condition: (a) => a[1] === 1, text: '好奇心旺盛なお子さまには、毎月新しい刺激が届くCha Cha Chaがぴったり。月齢に合わせたパーソナライズ配送で、「ちょうどいい」おもちゃが次々届きます。' },
+        { condition: (a) => a[5] === 2, text: '楽しみながら自然に学んでほしいというご希望に、知育玩具の定期便は理想的。遊びの中に学びの要素が詰まった良質なおもちゃで、無理なく成長をサポートします。' },
+        { condition: () => true, text: '専門家監修の知育玩具が月齢に合わせて届くサブスクサービス。遊びの中で自然に学べる環境を、初月980円から手軽に始められます。' },
     ],
 };
 
@@ -324,26 +240,17 @@ function selectReason(serviceId: string, answers: number[], fallbackReason: stri
 
 export function calculateResults(answers: number[]): DiagnosisResult[] {
     const scoreMap: Record<string, number> = {};
-    services.forEach((s) => {
-        scoreMap[s.id] = 0;
-    });
+    services.forEach((s) => { scoreMap[s.id] = 0; });
     answers.forEach((optionIndex, questionIndex) => {
         const question = questions[questionIndex];
         if (question && question.options[optionIndex]) {
             Object.entries(question.options[optionIndex].scores).forEach(([serviceId, score]) => {
-                if (scoreMap[serviceId] !== undefined) {
-                    scoreMap[serviceId] += score;
-                }
+                if (scoreMap[serviceId] !== undefined) { scoreMap[serviceId] += score; }
             });
         }
     });
     const results: DiagnosisResult[] = services
-        .map((service) => ({
-            service,
-            score: scoreMap[service.id] || 0,
-            matchRate: 0,
-            reason: selectReason(service.id, answers, service.tagline),
-        }))
+        .map((service) => ({ service, score: scoreMap[service.id] || 0, matchRate: 0, reason: selectReason(service.id, answers, service.tagline) }))
         .sort((a, b) => b.score - a.score);
     const top3 = results.slice(0, 3);
     const topScore = top3[0]?.score || 1;

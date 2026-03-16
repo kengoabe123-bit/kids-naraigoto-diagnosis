@@ -31,19 +31,19 @@ export const questions: Question[] = [
         options: [
             {
                 label: '0〜3歳（乳幼児）',
-                scores: { programming: 0, english: 4, 'english-online': 2, 'music-dance': 2, steam: 2, learning: 0, chikuiku: 5 },
+                scores: { programming: 0, english: 4, 'english-online': 2, 'music-dance': 2, steam: 2, learning: 0, chikuiku: 5, 'be-studio': 3 },
             },
             {
                 label: '4〜6歳（幼稚園・保育園）',
-                scores: { programming: 1, english: 5, 'english-online': 4, 'music-dance': 5, steam: 5, learning: 2, chikuiku: 4 },
+                scores: { programming: 1, english: 5, 'english-online': 4, 'music-dance': 5, steam: 5, learning: 2, chikuiku: 4, 'be-studio': 3 },
             },
             {
                 label: '7〜9歳（小学校低学年）',
-                scores: { programming: 4, english: 4, 'english-online': 5, 'music-dance': 4, steam: 5, learning: 5, chikuiku: 2 },
+                scores: { programming: 4, english: 4, 'english-online': 5, 'music-dance': 4, steam: 5, learning: 5, chikuiku: 2, 'be-studio': 3 },
             },
             {
                 label: '10歳以上（小学校高学年〜）',
-                scores: { programming: 5, english: 5, 'english-online': 5, 'music-dance': 3, steam: 4, learning: 5, chikuiku: 0 },
+                scores: { programming: 5, english: 5, 'english-online': 5, 'music-dance': 3, steam: 4, learning: 5, chikuiku: 0, 'be-studio': 3 },
             },
         ],
     },
@@ -54,19 +54,19 @@ export const questions: Question[] = [
         options: [
             {
                 label: '活発で体を動かすのが大好き',
-                scores: { programming: 1, english: 2, 'english-online': 2, 'music-dance': 5, steam: 3, learning: 1, chikuiku: 2 },
+                scores: { programming: 1, english: 2, 'english-online': 2, 'music-dance': 5, steam: 3, learning: 1, chikuiku: 2, 'be-studio': 3 },
             },
             {
                 label: '好奇心旺盛で色んなことに興味を持つ',
-                scores: { programming: 4, english: 4, 'english-online': 4, 'music-dance': 3, steam: 5, learning: 4, chikuiku: 5 },
+                scores: { programming: 4, english: 4, 'english-online': 4, 'music-dance': 3, steam: 5, learning: 4, chikuiku: 5, 'be-studio': 3 },
             },
             {
                 label: 'じっくり集中して取り組むタイプ',
-                scores: { programming: 5, english: 3, 'english-online': 3, 'music-dance': 4, steam: 4, learning: 5, chikuiku: 3 },
+                scores: { programming: 5, english: 3, 'english-online': 3, 'music-dance': 4, steam: 4, learning: 5, chikuiku: 3, 'be-studio': 3 },
             },
             {
                 label: '人と関わるのが好きで社交的',
-                scores: { programming: 2, english: 5, 'english-online': 5, 'music-dance': 5, steam: 3, learning: 2, chikuiku: 2 },
+                scores: { programming: 2, english: 5, 'english-online': 5, 'music-dance': 5, steam: 3, learning: 2, chikuiku: 2, 'be-studio': 3 },
             },
         ],
     },
@@ -76,19 +76,19 @@ export const questions: Question[] = [
         options: [
             {
                 label: '思考力・論理的思考',
-                scores: { programming: 5, english: 2, 'english-online': 2, 'music-dance': 1, steam: 5, learning: 4, chikuiku: 4 },
+                scores: { programming: 5, english: 2, 'english-online': 2, 'music-dance': 1, steam: 5, learning: 4, chikuiku: 4, 'be-studio': 3 },
             },
             {
                 label: '語学力・コミュニケーション力',
-                scores: { programming: 1, english: 5, 'english-online': 5, 'music-dance': 2, steam: 1, learning: 3, chikuiku: 1 },
+                scores: { programming: 1, english: 5, 'english-online': 5, 'music-dance': 2, steam: 1, learning: 3, chikuiku: 1, 'be-studio': 3 },
             },
             {
                 label: '感性・表現力・創造力',
-                scores: { programming: 2, english: 1, 'english-online': 1, 'music-dance': 5, steam: 4, learning: 2, chikuiku: 4 },
+                scores: { programming: 2, english: 1, 'english-online': 1, 'music-dance': 5, steam: 4, learning: 2, chikuiku: 4, 'be-studio': 3 },
             },
             {
                 label: '読解力・学力・教養',
-                scores: { programming: 2, english: 3, 'english-online': 3, 'music-dance': 1, steam: 3, learning: 5, chikuiku: 3 },
+                scores: { programming: 2, english: 3, 'english-online': 3, 'music-dance': 1, steam: 3, learning: 5, chikuiku: 3, 'be-studio': 3 },
             },
         ],
     },
@@ -98,19 +98,19 @@ export const questions: Question[] = [
         options: [
             {
                 label: 'ゲーム・パソコン・タブレット',
-                scores: { programming: 5, english: 2, 'english-online': 3, 'music-dance': 1, steam: 4, learning: 2, chikuiku: 1 },
+                scores: { programming: 5, english: 2, 'english-online': 3, 'music-dance': 1, steam: 4, learning: 2, chikuiku: 1, 'be-studio': 3 },
             },
             {
                 label: '音楽を聴く・歌う・踊る',
-                scores: { programming: 0, english: 1, 'english-online': 1, 'music-dance': 5, steam: 1, learning: 1, chikuiku: 2 },
+                scores: { programming: 0, english: 1, 'english-online': 1, 'music-dance': 5, steam: 1, learning: 1, chikuiku: 2, 'be-studio': 3 },
             },
             {
                 label: '本を読む・お話を聞く',
-                scores: { programming: 2, english: 3, 'english-online': 3, 'music-dance': 1, steam: 2, learning: 5, chikuiku: 3 },
+                scores: { programming: 2, english: 3, 'english-online': 3, 'music-dance': 1, steam: 2, learning: 5, chikuiku: 3, 'be-studio': 3 },
             },
             {
                 label: 'お絵かき・工作・実験',
-                scores: { programming: 3, english: 0, 'english-online': 0, 'music-dance': 2, steam: 5, learning: 1, chikuiku: 5 },
+                scores: { programming: 3, english: 0, 'english-online': 0, 'music-dance': 2, steam: 5, learning: 1, chikuiku: 5, 'be-studio': 3 },
             },
         ],
     },
@@ -121,19 +121,19 @@ export const questions: Question[] = [
         options: [
             {
                 label: '教室に通って対面で学ばせたい',
-                scores: { programming: 4, english: 3, 'english-online': 1, 'music-dance': 5, steam: 1, learning: 1, chikuiku: 1 },
+                scores: { programming: 4, english: 3, 'english-online': 1, 'music-dance': 5, steam: 1, learning: 1, chikuiku: 1, 'be-studio': 3 },
             },
             {
                 label: 'オンラインで自宅から学ばせたい',
-                scores: { programming: 3, english: 5, 'english-online': 5, 'music-dance': 1, steam: 3, learning: 2, chikuiku: 2 },
+                scores: { programming: 3, english: 5, 'english-online': 5, 'music-dance': 1, steam: 3, learning: 2, chikuiku: 2, 'be-studio': 3 },
             },
             {
                 label: '自宅に届く教材で自分のペースで',
-                scores: { programming: 2, english: 2, 'english-online': 2, 'music-dance': 1, steam: 5, learning: 5, chikuiku: 5 },
+                scores: { programming: 2, english: 2, 'english-online': 2, 'music-dance': 1, steam: 5, learning: 5, chikuiku: 5, 'be-studio': 3 },
             },
             {
                 label: 'まだ決めていない',
-                scores: { programming: 3, english: 3, 'english-online': 3, 'music-dance': 3, steam: 3, learning: 3, chikuiku: 3 },
+                scores: { programming: 3, english: 3, 'english-online': 3, 'music-dance': 3, steam: 3, learning: 3, chikuiku: 3, 'be-studio': 3 },
             },
         ],
     },
@@ -143,19 +143,19 @@ export const questions: Question[] = [
         options: [
             {
                 label: '将来の受験や就職に役立ててほしい',
-                scores: { programming: 5, english: 5, 'english-online': 5, 'music-dance': 2, steam: 3, learning: 5, chikuiku: 2 },
+                scores: { programming: 5, english: 5, 'english-online': 5, 'music-dance': 2, steam: 3, learning: 5, chikuiku: 2, 'be-studio': 3 },
             },
             {
                 label: '自分らしい個性や才能を見つけてほしい',
-                scores: { programming: 3, english: 2, 'english-online': 2, 'music-dance': 5, steam: 5, learning: 2, chikuiku: 4 },
+                scores: { programming: 3, english: 2, 'english-online': 2, 'music-dance': 5, steam: 5, learning: 2, chikuiku: 4, 'be-studio': 3 },
             },
             {
                 label: '楽しみながら自然に学んでほしい',
-                scores: { programming: 3, english: 4, 'english-online': 4, 'music-dance': 4, steam: 5, learning: 4, chikuiku: 5 },
+                scores: { programming: 3, english: 4, 'english-online': 4, 'music-dance': 4, steam: 5, learning: 4, chikuiku: 5, 'be-studio': 3 },
             },
             {
                 label: '友達を作り、協調性を身につけてほしい',
-                scores: { programming: 2, english: 4, 'english-online': 3, 'music-dance': 5, steam: 2, learning: 2, chikuiku: 2 },
+                scores: { programming: 2, english: 4, 'english-online': 3, 'music-dance': 5, steam: 2, learning: 2, chikuiku: 2, 'be-studio': 3 },
             },
         ],
     },
@@ -165,19 +165,19 @@ export const questions: Question[] = [
         options: [
             {
                 label: '自分で考え、やり抜く力',
-                scores: { programming: 5, english: 3, 'english-online': 3, 'music-dance': 3, steam: 5, learning: 4, chikuiku: 3 },
+                scores: { programming: 5, english: 3, 'english-online': 3, 'music-dance': 3, steam: 5, learning: 4, chikuiku: 3, 'be-studio': 3 },
             },
             {
                 label: '世界で通用するスキル',
-                scores: { programming: 4, english: 5, 'english-online': 5, 'music-dance': 2, steam: 3, learning: 2, chikuiku: 1 },
+                scores: { programming: 4, english: 5, 'english-online': 5, 'music-dance': 2, steam: 3, learning: 2, chikuiku: 1, 'be-studio': 3 },
             },
             {
                 label: '自己表現力・発信力',
-                scores: { programming: 2, english: 4, 'english-online': 4, 'music-dance': 5, steam: 4, learning: 3, chikuiku: 3 },
+                scores: { programming: 2, english: 4, 'english-online': 4, 'music-dance': 5, steam: 4, learning: 3, chikuiku: 3, 'be-studio': 3 },
             },
             {
                 label: '知的好奇心・学ぶ楽しさ',
-                scores: { programming: 3, english: 3, 'english-online': 3, 'music-dance': 3, steam: 5, learning: 5, chikuiku: 5 },
+                scores: { programming: 3, english: 3, 'english-online': 3, 'music-dance': 3, steam: 5, learning: 5, chikuiku: 5, 'be-studio': 3 },
             },
         ],
     },
@@ -225,6 +225,11 @@ const conditionalReasons: Record<string, ConditionalReason[]> = {
         { condition: (a) => a[1] === 1, text: '好奇心旺盛なお子さまには、毎月新しい刺激が届くCha Cha Chaがぴったり。月齢に合わせたパーソナライズ配送で、「ちょうどいい」おもちゃが次々届きます。' },
         { condition: (a) => a[5] === 2, text: '楽しみながら自然に学んでほしいというご希望に、知育玩具の定期便は理想的。遊びの中に学びの要素が詰まった良質なおもちゃで、無理なく成長をサポートします。' },
         { condition: () => true, text: '専門家監修の知育玩具が月齢に合わせて届くサブスクサービス。遊びの中で自然に学べる環境を、初月980円から手軽に始められます。' },
+    ],
+    'be-studio': [
+        { condition: (a) => a[2] === 1, text: '語学力・コミュニケーション力を伸ばしたいなら、ベネッセのビースタジオがおすすめ。大手ベネッセのノウハウで、楽しみながら本物の英語力が身につきます。全国に教室があり通いやすいのも魅力です。' },
+        { condition: (a) => a[4] === 0, text: '教室に通って対面で学ばせたいとのこと。ビースタジオは全国に教室があり、お近くで通いやすい英語教室です。年齢に合ったカリキュラムで、楽しく英語が学べます。' },
+        { condition: () => true, text: 'ベネッセが運営するこども英語教室。大手ブランドの安心感と、年齢に合わせたカリキュラムで、お子さまの英語力を楽しく伸ばせます。全国展開で通いやすさも抜群。' },
     ],
 };
 

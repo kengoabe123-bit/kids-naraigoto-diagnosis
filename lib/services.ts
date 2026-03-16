@@ -45,7 +45,7 @@ export const services: Service[] = [
         ],
         recommended: ['ゲームが好き', '論理的思考を伸ばしたい', 'ものづくりが好き'],
         affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=4AZH49+3VX7II+4380+BX3J6',
-        ctaText: '無料体験に申し込む',
+        ctaText: '詳細を見る',
         color: '#FF6B35',
     },
     {
@@ -75,7 +75,7 @@ export const services: Service[] = [
         ],
         recommended: ['英語に興味がある', '自宅で学ばせたい', '初めての英語学習'],
         affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=4AZH49+3C9WJU+45WY+5ZEMQ',
-        ctaText: '無料体験を申し込む',
+        ctaText: '詳細を見る',
         color: '#4CAF50',
     },
     {
@@ -105,7 +105,7 @@ export const services: Service[] = [
         ],
         recommended: ['本格的な英語力をつけたい', 'ネイティブの発音に触れさせたい', 'グローバルな教育を重視'],
         affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=4AZH49+2Z6D8Q+4KYW+61RIA',
-        ctaText: '無料体験レッスンを受ける',
+        ctaText: '詳細を見る',
         color: '#1976D2',
     },
     {
@@ -135,7 +135,7 @@ export const services: Service[] = [
         ],
         recommended: ['音楽が好き', 'ダンスに興味がある', '表現力を伸ばしたい'],
         affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=4AZH49+2ZRSUI+3H64+15OK2A',
-        ctaText: '無料体験レッスンを見る',
+        ctaText: '詳細を見る',
         color: '#9C27B0',
     },
     {
@@ -165,7 +165,7 @@ export const services: Service[] = [
         ],
         recommended: ['好奇心旺盛', 'ものづくりが好き', '自宅で学ばせたい'],
         affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=4AZH49+383VBE+4GM8+61Z82',
-        ctaText: '教材を詳しく見る',
+        ctaText: '詳細を見る',
         color: '#FF9800',
     },
     {
@@ -195,7 +195,7 @@ export const services: Service[] = [
         ],
         recommended: ['読解力を伸ばしたい', '受験対策をしたい', '社会に関心を持たせたい'],
         affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=4AZH49+39AQIY+4M9A+626XU',
-        ctaText: '購読を申し込む',
+        ctaText: '詳細を見る',
         color: '#E53935',
     },
     {
@@ -225,8 +225,26 @@ export const services: Service[] = [
         ],
         recommended: ['知育に関心がある', '0〜3歳のお子さま', 'おもちゃ選びに迷っている'],
         affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=4AZH49+21U3D6+4OIO+5YRHE',
-        ctaText: '初月980円で試してみる',
+        ctaText: '詳細を見る',
         color: '#26A69A',
+    },
+    {
+        id: 'be-studio',
+        slug: 'be-studio',
+        name: 'ベネッセ ビースタジオ',
+        nameEn: 'BE studio',
+        tagline: 'ベネッセのこども英語教室で本物の英語力を',
+        description: 'ベネッセが運営するこども英語教室。年齢や発達段階に合わせたカリキュラムで、楽しみながら本物の英語力を身につけられる。全国に教室があり通いやすい。',
+        category: '英語教室',
+        target: '英語を楽しく学ばせたいお子さま',
+        targetAge: ['幼児', '小学生', '中学生'],
+        features: ['ベネッセのノウハウを凝縮したカリキュラム', '年齢別の最適なレッスン設計', '全国展開で通いやすい', '日本人講師と外国人講師から選べる'],
+        pros: ['大手ベネッセブランドの安心感', '全国に教室があり通いやすい', '年齢に合ったカリキュラム'],
+        cons: ['教室によって講師の質に差がある場合も', '他の英語教室より月謝がやや高め'],
+        recommended: ['英語教育を始めたいご家庭', 'ベネッセブランドが好きな方', '通いやすい教室を探している方'],
+        affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=4AZH49+3VBRWQ+5JRY+5YJRM',
+        ctaText: '詳細を見る',
+        color: '#FF6B6B',
     },
 ];
 

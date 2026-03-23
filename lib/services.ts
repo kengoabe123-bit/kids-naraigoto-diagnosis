@@ -246,6 +246,36 @@ export const services: Service[] = [
         ctaText: '詳細を見る',
         color: '#FF6B6B',
     },
+    {
+        id: 'anzu-tech',
+        slug: 'anzu-tech',
+        name: 'アンズテック',
+        nameEn: 'AnzTech',
+        tagline: '小中学生専門のオンラインプログラミングスクール',
+        description: '小中学生専門のオンラインプログラミングスクール。Scratchやコードプログラミングを通じて、論理的思考力と創造力を育む。オンラインだから全国どこからでも受講可能。',
+        category: 'プログラミング',
+        target: 'プログラミングに興味がある小中学生',
+        targetAge: ['小学生', '中学生'],
+        features: [
+            '小中学生専門のカリキュラム',
+            'オンラインで全国どこでも受講可能',
+            'Scratch・コードプログラミングに対応',
+            '個別指導で一人ひとりに合わせたペース',
+        ],
+        pros: [
+            '送迎不要でオンライン完結',
+            '小中学生に特化した分かりやすい指導',
+            '自分の作品を作って発表する楽しさ',
+        ],
+        cons: [
+            'オンラインのためPC環境が必要',
+            '対面の交流が少ない',
+        ],
+        recommended: ['プログラミングに興味がある', 'ゲームやアプリを作りたい', '近くにスクールがない地方在住者'],
+        affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=4AZH49+230YKQ+4QCS+5YRHE',
+        ctaText: '詳細を見る',
+        color: '#2196F3',
+    },
 ];
 
 export function getServiceBySlug(slug: string): Service | undefined {

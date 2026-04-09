@@ -13,6 +13,9 @@ const notoSansJP = Noto_Sans_JP({
 export const metadata: Metadata = {
   title: 'NaraiGo - お子さまにぴったりの習い事診断',
   description: '7つの質問に答えるだけで、お子さまにぴったりの習い事が見つかる無料診断テスト。プログラミング、ピアノ、水泳、英会話など人気の習い事からAIがマッチング。',
+  verification: {
+    google: 'KvzKu39UZd83_x3idpa06ZQbeXzlo5J-Mn1ACXskPf0',
+  },
   openGraph: {
     title: 'NaraiGo - お子さまにぴったりの習い事診断',
     description: '7つの質問に答えるだけで、お子さまにぴったりの習い事が見つかる無料診断テスト。プログラミング、ピアノ、水泳、英会話など人気の習い事からAIがマッチング。',

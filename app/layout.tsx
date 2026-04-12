@@ -12,7 +12,7 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 const SITE_NAME = 'NaraiGo';
-const SITE_URL = 'https://kids-naraigoto-diagnosis.pages.dev';
+const SITE_URL = 'https://naraigo.com';
 
 export const metadata: Metadata = {
   title: 'NaraiGo - お子さまにぴったりの習い事診断',

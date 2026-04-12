@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://kids-naraigoto-diagnosis.pages.dev/sitemap.xml',
+    sitemap: 'https://naraigo.com/sitemap.xml',
   };
 }
